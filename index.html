@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Milos Gavranovic</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="background-img"></div>
+    <nav class="nav-bar">
+      <ul class="nav-bar--logo">
+        <img class="logo" src="./Pictures/LogoStarter.png" alt="LogoStarter" />
+      </ul>
+      <div class="nav-bar--container">
+        <ul class="nav-bar--el" id="nav-about--me">
+          About me
+        </ul>
+        <ul class="nav-bar--el" id="nav-projects">
+          Projects
+        </ul>
+        <ul class="nav-bar--el" id="nav-contacts">
+          Contacts
+        </ul>
+      </div>
+    </nav>
+    <!--
+     First section will be used for details on me and who am I  
+    -->
+    <div class="container-about--me">
+      <img class="about-me--pic" src="./Pictures/placeholder.jpg" alt="" />
+      <p class="about-me">
+        Hello there fellow human, my name is Milos Gavranovic (Miloš
+        Gavranović). I consider myself to be an <b>aspiring</b> Web Developer,
+        proficient in HTML, CSS and JavaScript, but also curious to explore
+        other aspects of the vast Software Development world. This Portfolio is
+        meant to showcase my journey in this huge web of code and also showcase
+        who am I and what I can do.
+      </p>
+    </div>
+    <!--
+      Next section will be used for projects
+      I will use a picture format which will zoom in on hover
+      that will techincally be an anchor or a link to projects GitHub Repo
+      or deployed website
+    -->
+    <div class="projects">
+      <a
+        href="#https://github.com/MGavranovic/School-Project.git"
+        target="_blank"
+      >
+        <img
+          class="projects-pics"
+          src="./Pictures/TestProject1.PNG"
+          alt="School-Project"
+        />
+      </a>
+      <a href="https://forkify-milos5.netlify.app" target="_blank">
+        <img class="projects-pics" src="./Pictures/forkify.PNG" alt="forkify" />
+      </a>
+      <a href="#" target="_blank">
+        <!-- dodati projekat -->
+        <img
+          class="projects-pics"
+          src="./Pictures/TestProject3.PNG"
+          alt="Project3"
+        />
+      </a>
+    </div>
+
+    <!--
+      Last section will be used for the contact info
+    -->
+    <div class="contact-info--container">
+      <div class="contact-info--header">Contact Information</div>
+      <p id="contact">Business Email: mgavranovic7@gmail.com</p>
+      <a
+        id="contact"
+        href="https://linkedin.com/in/miloš-gavranović"
+        target="_blank"
+        >LinkedIn: linkedin.com/in/miloš-gavranović</a
+      >
+      <a id="contact" href="https://github.com/MGavranovic" target="_blank"
+        >GitHub: github.com/MGavranovic</a
+      >
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
