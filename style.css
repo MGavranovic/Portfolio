@@ -7,6 +7,9 @@ body {
     lightgray 0px 0px / 100% 100% no-repeat;
 }
 */
+* {
+  font-family: 'Roboto Mono', monospace;
+}
 
 .background-img {
   position: fixed;
@@ -170,4 +173,82 @@ Third section > CONTACT INFO
   color: black;
   margin-top: 16px;
   margin-bottom: 16px;
+}
+
+/*
+Testing new contact from
+*/
+form {
+  width: 500px;
+  text-align: center;
+}
+
+.input-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-field {
+  width: 44%;
+}
+
+.field .data {
+  width: 100%;
+  padding: 18px;
+  border: 2px solid turquoise;
+  background: transparent;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  margin: 12px 0;
+}
+
+.field.error .data {
+  border-color: red;
+}
+
+.data::placeholder {
+  color: black;
+}
+
+.data {
+  color: black;
+}
+
+.field .error-txt {
+  font-size: 14px;
+  color: red;
+  text-align: left;
+  margin: -5px 0 10px;
+  display: none;
+}
+
+.field.error .error-txt {
+  display: block;
+}
+.email-text .error-txt {
+  margin-top: -10px;
+}
+
+.email-text .data {
+  resize: none;
+}
+
+.btn-send-msg {
+  padding: 16px 32px;
+  border: 2px solid turquoise;
+  background: #374257;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: grey;
+  letter-spacing: 1px;
+  margin-top: 12px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px white;
+  transition: 0.5s;
+}
+
+.btn-send-msg:hover {
+  box-shadow: none;
 }

@@ -79,6 +79,70 @@
     -->
     <div class="contact-info--container">
       <div class="contact-info--header">Contact Information</div>
+      <form action="#">
+        <h1>Contact Me!</h1>
+        <div class="input-box">
+          <div class="input-field field">
+            <input
+              type="text"
+              placeholder="Full Name"
+              class="data"
+              id="name"
+              autocomplete="off"
+            />
+            <div class="error-txt">Full Name field can't be empty!</div>
+          </div>
+          <div class="input-field field">
+            <input
+              type="text"
+              placeholder="Email Address"
+              class="data"
+              id="email"
+              autocomplete="off"
+            />
+            <div class="error-txt email">
+              Email Address field can't be empty!
+            </div>
+          </div>
+        </div>
+        <div class="input-box">
+          <div class="input-field field">
+            <input
+              type="text"
+              placeholder="Phone Number"
+              class="data"
+              id="phone"
+              autocomplete="off"
+            />
+            <div class="error-txt">Phone Number field can't be empty!</div>
+          </div>
+          <div class="input-field field">
+            <input
+              type="text"
+              placeholder="Subject"
+              class="data"
+              id="subject"
+              autocomplete="off"
+            />
+            <div class="error-txt">Subject field can't be empty!</div>
+          </div>
+        </div>
+        <div class="email-text field">
+          <textarea
+            name=""
+            id="message"
+            class="data"
+            cols="30"
+            rows="10"
+            placeholder="Please enter your message here!"
+            autocomplete="off"
+          ></textarea>
+          <div class="error-txt">Message field can't be empty!</div>
+        </div>
+
+        <button class="btn-send-msg" type="submit">Send Message</button>
+      </form>
+      <!--
       <p id="contact">Business Email: mgavranovic7@gmail.com</p>
       <a
         id="contact"
@@ -89,6 +153,7 @@
       <a id="contact" href="https://github.com/MGavranovic" target="_blank"
         >GitHub: github.com/MGavranovic</a
       >
+      -->
     </div>
 
     <script src="script.js"></script>
