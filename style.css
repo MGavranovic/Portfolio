@@ -252,3 +252,21 @@ form {
 .btn-send-msg:hover {
   box-shadow: none;
 }
+
+/*
+Constact me sections logos for socials
+*/
+.socials-logo {
+  width: 40px;
+  margin-top: 20px;
+}
+
+.github {
+  background-color: black;
+  border-radius: 50%;
+}
+
+.linkedin {
+  background-color: white;
+  border-radius: 20%;
+}
