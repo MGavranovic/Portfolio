@@ -160,8 +160,9 @@ Third section > CONTACT INFO
 }
 
 .contact-info--header {
-  font-family: 'Robo Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-weight: 600;
+  font-size: 26px;
   margin-top: 16px;
 }
 
@@ -179,7 +180,7 @@ Third section > CONTACT INFO
 Testing new contact from
 */
 form {
-  width: 500px;
+  width: 400px;
   text-align: center;
 }
 
@@ -245,7 +246,7 @@ form {
   letter-spacing: 1px;
   margin-top: 12px;
   cursor: pointer;
-  box-shadow: 5px 5px 10px white;
+  box-shadow: 5px 5px 10px 5px black;
   transition: 0.5s;
 }
 
@@ -259,14 +260,20 @@ Constact me sections logos for socials
 .socials-logo {
   width: 40px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .github {
   background-color: black;
   border-radius: 50%;
+  padding: 0%;
 }
 
 .linkedin {
   background-color: white;
   border-radius: 20%;
+}
+
+a {
+  text-decoration: none;
 }
