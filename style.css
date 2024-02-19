@@ -323,9 +323,9 @@ SLIDER Component
   font-family: inherit;
   color: #333;
   border-radius: 50%;
-  height: 5.5rem;
-  width: 5.5rem;
-  font-size: 3.25rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  font-size: 2rem;
   cursor: pointer;
 }
 
