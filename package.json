@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "sweetalert2": "^11.10.5"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  },
+  "name": "portfolio",
+  "description": "This is my Personal Portfolio Website, where I'll track my coding journey by adding new projects and experiences that I gain.",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Milos Gavranovic",
+  "license": "ISC"
+}
