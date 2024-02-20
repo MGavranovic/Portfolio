@@ -1,8 +1,6 @@
 import Swal from 'sweetalert2';
 window.Swal = Swal;
 
-console.log(1);
-
 /////////// SELECTORS
 // selecting all the elements
 // Selecting navbar elements
