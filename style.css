@@ -317,7 +317,7 @@ form {
 .field .data {
   width: 100%;
   padding: 18px;
-  border: 2px solid turquoise;
+  border: 2px solid var(--color-primary);
   background: transparent;
   border-radius: 5px;
   outline: none;
@@ -358,16 +358,19 @@ form {
 
 .btn-send-msg {
   padding: 16px 32px;
-  border: 2px solid turquoise;
-  background: #374257;
+  border: 2px solid var(--color-tertiary);
+  background: var(--color-tertiary);
   border-radius: 5px;
   font-size: 16px;
   font-weight: 600;
-  color: grey;
+  color: #28231d;
   letter-spacing: 1px;
   margin-top: 12px;
-  cursor: pointer;
-  box-shadow: 5px 5px 10px 5px black;
+  cursor: pointer; /*
+  box-shadow: 5px 5px 10px 5px var(--color-primary);
+  */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   transition: 0.5s;
 }
 
