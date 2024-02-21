@@ -15,6 +15,10 @@ Testing some colors
   --gradient-secondary: linear-gradient(to top left, #ffb003, #ffcb03);
 }
 
+section {
+  border-bottom: 2px solid;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -48,9 +52,9 @@ body {
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  border: solid;
-  font-family: 'Roboto Mono', monospace;
+  border-bottom: 2px solid;
   color: black;
+  font-family: 'Roboto Mono', monospace;
   font-weight: 500;
   position: fixed;
   right: 0;
@@ -66,8 +70,11 @@ body {
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-around;
+  border-right: solid 2px;
+  /*
   border: solid;
   border-color: orange;
+  */
   margin: 0;
   padding-left: 0;
 }
@@ -85,7 +92,9 @@ body {
 .nav-bar--container {
   display: flex;
   justify-content: space-around;
+  /*
   border: solid;
+  */
   transition: 0.3s ease;
 }
 
@@ -108,8 +117,10 @@ First section > ABOUT ME
 
 .container-about--me {
   display: flex;
+  /*
   border: solid;
   border-color: green;
+  */
   justify-content: space-around;
   padding: 5rem 20px 5rem;
   margin-top: 90px;
@@ -131,139 +142,6 @@ First section > ABOUT ME
 /*
 Second section > PROJECTS
 */
-
-/*
-Third section > CONTACT INFO
-*/
-
-.contact-info--container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: justify;
-  border: solid;
-  border-color: red;
-}
-
-.contact-info--header {
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 600;
-  font-size: 26px;
-  margin-top: 16px;
-}
-
-#contact {
-  display: block;
-  text-decoration: none;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 500;
-  color: black;
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
-
-/*
-Testing new contact from
-*/
-form {
-  width: 400px;
-  text-align: center;
-}
-
-.input-box {
-  display: flex;
-  justify-content: space-between;
-}
-
-.input-field {
-  width: 44%;
-}
-
-.field .data {
-  width: 100%;
-  padding: 18px;
-  border: 2px solid turquoise;
-  background: transparent;
-  border-radius: 5px;
-  outline: none;
-  font-size: 16px;
-  margin: 12px 0;
-}
-
-.field.error .data {
-  border-color: red;
-}
-
-.data::placeholder {
-  color: black;
-}
-
-.data {
-  color: black;
-}
-
-.field .error-txt {
-  font-size: 14px;
-  color: red;
-  text-align: left;
-  margin: -5px 0 10px;
-  display: none;
-}
-
-.field.error .error-txt {
-  display: block;
-}
-.email-text .error-txt {
-  margin-top: -10px;
-}
-
-.email-text .data {
-  resize: none;
-}
-
-.btn-send-msg {
-  padding: 16px 32px;
-  border: 2px solid turquoise;
-  background: #374257;
-  border-radius: 5px;
-  font-size: 16px;
-  font-weight: 600;
-  color: grey;
-  letter-spacing: 1px;
-  margin-top: 12px;
-  cursor: pointer;
-  box-shadow: 5px 5px 10px 5px black;
-  transition: 0.5s;
-}
-
-.btn-send-msg:hover {
-  box-shadow: none;
-}
-
-/*
-Constact me sections logos for socials
-*/
-.socials-logo {
-  width: 40px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.github {
-  background-color: black;
-  border-radius: 50%;
-  padding: 0%;
-}
-
-.linkedin {
-  background-color: white;
-  border-radius: 20%;
-}
-
-a {
-  text-decoration: none;
-}
-
 /*
 SLIDER Component
 */
@@ -386,6 +264,139 @@ SLIDER Component
 
 .projects-section {
   margin-bottom: none;
+}
+/*
+Third section > CONTACT INFO
+*/
+
+.contact-info--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  /*
+  border: solid;
+  border-color: red;
+  */
+}
+
+.contact-info--header {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  font-size: 26px;
+  margin-top: 16px;
+}
+
+#contact {
+  display: block;
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  color: black;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/*
+Testing new contact from
+*/
+form {
+  width: 400px;
+  text-align: center;
+}
+
+.input-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-field {
+  width: 44%;
+}
+
+.field .data {
+  width: 100%;
+  padding: 18px;
+  border: 2px solid turquoise;
+  background: transparent;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  margin: 12px 0;
+}
+
+.field.error .data {
+  border-color: red;
+}
+
+.data::placeholder {
+  color: black;
+}
+
+.data {
+  color: black;
+}
+
+.field .error-txt {
+  font-size: 14px;
+  color: red;
+  text-align: left;
+  margin: -5px 0 10px;
+  display: none;
+}
+
+.field.error .error-txt {
+  display: block;
+}
+.email-text .error-txt {
+  margin-top: -10px;
+}
+
+.email-text .data {
+  resize: none;
+}
+
+.btn-send-msg {
+  padding: 16px 32px;
+  border: 2px solid turquoise;
+  background: #374257;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: grey;
+  letter-spacing: 1px;
+  margin-top: 12px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px 5px black;
+  transition: 0.5s;
+}
+
+.btn-send-msg:hover {
+  box-shadow: none;
+}
+
+/*
+Constact me sections logos for socials
+*/
+.socials-logo {
+  width: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.github {
+  background-color: black;
+  border-radius: 50%;
+  padding: 0%;
+}
+
+.linkedin {
+  background-color: white;
+  border-radius: 20%;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*
