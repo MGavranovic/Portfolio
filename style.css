@@ -2,6 +2,7 @@
 Testing some colors
 */
 :root {
+  --color-section: #555555;
   --color-primary: #5ec576;
   --color-secondary: #ffcb03;
   --color-tertiary: #ff585f;
@@ -16,7 +17,7 @@ Testing some colors
 }
 
 section {
-  border-bottom: 2px solid;
+  border-bottom: 2px solid var(--color-section);
 }
 
 html {
@@ -63,7 +64,8 @@ body {
   background-image: url(./Pictures/background.png);
   z-index: 99;
   height: 80px;
-  filter: brightness(60%);
+
+  filter: brightness(80%);
 }
 
 .nav-bar--logo {
@@ -86,6 +88,9 @@ body {
 
 .logo:hover {
   cursor: pointer;
+  /*
+  Have to work on this box shadow this is jus a placeholder
+  */
   box-shadow: #1b90cf 3px 3px 3px;
 }
 
