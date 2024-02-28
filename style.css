@@ -130,7 +130,7 @@ First section > ABOUT ME
 /*
 testing responsive design for about me section
 */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   .container-about--me {
     display: flex;
     justify-content: space-around;
