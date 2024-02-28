@@ -122,13 +122,27 @@ First section > ABOUT ME
 
 .container-about--me {
   display: flex;
-  /*
-  border: solid;
-  border-color: green;
-  */
   justify-content: space-around;
   padding: 5rem 20px 5rem;
   margin-top: 90px;
+}
+
+/*
+testing responsive design for about me section
+*/
+@media screen and (max-width: 400px) {
+  .container-about--me {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 5rem 20px 5rem;
+    margin-top: 90px;
+    align-items: center;
+  }
+
+  .about-me--pic {
+    height: 10rem;
+  }
 }
 
 .about-me {
@@ -279,10 +293,6 @@ Third section > CONTACT INFO
   flex-direction: column;
   align-items: center;
   text-align: justify;
-  /*
-  border: solid;
-  border-color: red;
-  */
 }
 
 .contact-info--header {
