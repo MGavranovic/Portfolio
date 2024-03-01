@@ -175,11 +175,17 @@ SLIDER Component
   overflow: hidden;
 }
 
+@media screen and (max-width: 800px) {
+  .slider {
+    height: 21rem;
+  }
+}
+
 .slide {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 35rem;
+  height: 87.5%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -279,6 +285,13 @@ SLIDER Component
 
 .projects-pics {
   width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .projects-pics {
+    margin-left: 5%;
+    width: 90%;
+  }
 }
 
 .projects-section {
