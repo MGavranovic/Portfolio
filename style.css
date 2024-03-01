@@ -398,6 +398,7 @@ Third section > CONTACT INFO
   color: #28231d;
   letter-spacing: 1px;
   margin-top: 12px;
+  margin-right: -40px;
   cursor: pointer; /*
   box-shadow: 5px 5px 10px 5px var(--color-primary);
   */
