@@ -205,9 +205,8 @@ SLIDER Component
   position: absolute;
   top: 50%;
   z-index: 10;
-
   border: none;
-  background: rgba(255, 255, 255, 0.7);
+  background: #f5fefd;
   font-family: inherit;
   color: #333;
   border-radius: 50%;
