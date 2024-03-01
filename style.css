@@ -181,6 +181,11 @@ SLIDER Component
   }
 }
 
+@media (min-width: 1500px) and (max-width: 1700px) {
+  .slider {
+    height: 60rem;
+  }
+}
 .slide {
   position: absolute;
   top: 0;
