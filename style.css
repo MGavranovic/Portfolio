@@ -324,12 +324,17 @@ Third section > CONTACT INFO
   margin-bottom: 16px;
 }
 
-/*
-Testing new contact from
-*/
-form {
+.contact-form {
   width: 400px;
   text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .contact-form {
+    margin-right: 40px;
+    width: 380px;
+    text-align: center;
+  }
 }
 
 .input-box {
