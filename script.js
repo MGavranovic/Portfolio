@@ -17,7 +17,7 @@ console.log(navbarHeight);
 // selecting parts of the page
 const aboutMe = document.querySelector('.container-about--me');
 console.log(aboutMe);
-const projects = document.querySelector('.projects');
+const projects = document.querySelector('.projects-section');
 console.log(projects);
 const contacts = document.querySelector('.contact-info--container');
 console.log(contacts);
