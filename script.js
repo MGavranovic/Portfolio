@@ -80,6 +80,7 @@ navbar.addEventListener('click', function (e) {
 // SLIDER
 const slider = function () {
   const slides = document.querySelectorAll('.slide');
+  console.log(slides);
   const btnLeft = document.querySelector('.slider__btn--left');
   const btnRight = document.querySelector('.slider__btn--right');
   const dotContainer = document.querySelector('.dots');
